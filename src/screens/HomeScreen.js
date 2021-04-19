@@ -1,14 +1,51 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
-const HomeScreen = () => {
-  return <Text style={styles.text}>hello world</Text>
-  
+const HomeScreen = ({navigation}) => {
+
+
+  return <View style={styles.viewStyle}>
+    <Text style={styles.headline}>Home Page!</Text>
+    <Text style={styles.subHeadline}>Where Would you like to go?</Text>
+
+    <TouchableOpacity style={styles.buttonStyle}
+      onPress={() => navigation.navigate('Components')}>
+      <Text style={styles.textStyle}>Component Screen</Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity style={styles.buttonStyle}
+      onPress={() => navigation.navigate('List')}>
+      <Text style={styles.textStyle}>List Screen</Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity style={styles.buttonStyle}
+      onPress={() => navigation.navigate('Image')}>
+      <Text style={styles.textStyle}>Image Screen</Text>
+    </TouchableOpacity>
+
+  </View>
+
 };
 
 const styles = StyleSheet.create({
-  text: {
+  viewStyle: {
+    alignItems: 'center'
+  },
+  headline: {
     fontSize: 30
+  },
+  subHeadline: {
+    fontSize: 20,
+    margin: 3
+  },
+  buttonStyle: {
+    borderRadius: 8,
+    margin: 5,
+    backgroundColor: 'orange',
+    padding: 10
+  },
+  textStyle: {
+    fontSize: 16
   }
 });
 
