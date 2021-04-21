@@ -23,6 +23,21 @@ const HomeScreen = ({navigation}) => {
       <Text style={styles.textStyle}>Image Screen</Text>
     </TouchableOpacity>
 
+    <TouchableOpacity style={styles.buttonStyle}
+      onPress={() => navigation.navigate('Counter')}>
+      <Text style={styles.textStyle}>Counter Screen</Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity style={styles.buttonStyle}
+      onPress={() => navigation.navigate('Color')}>
+      <Text style={styles.textStyle}>Color Screen</Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity style={styles.buttonStyle}
+      onPress={() => navigation.navigate('AdjustableColors')}>
+      <Text style={styles.textStyle}>Adjustable-Colors Screen</Text>
+    </TouchableOpacity>
+
   </View>
 
 };
