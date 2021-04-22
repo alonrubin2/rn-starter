@@ -34,18 +34,17 @@ const styles = StyleSheet.create({
     },
     headline: {
         fontSize: 30,
-        marginTop: 15
+        marginTop: 8
     },
     subHeadline: {
         fontSize: 20,
-        margin: 3
     },
     buttonStyle: {
         borderRadius: 8,
         margin: 5,
-        marginTop: 20,
+        marginTop: 10,
         backgroundColor: 'orange',
-        padding: 10
+        padding: 15
     },
     textStyle: {
         fontSize: 16
