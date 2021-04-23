@@ -7,6 +7,8 @@ import ImageScreen from "./src/screens/ImageScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
 import AdjustableColors from "./src/screens/AdjustableColors";
+import TextInputScreen from "./src/screens/TextInputScreen";
+import PasswordInput from "./src/screens/PasswordInput";
 
 const navigator = createStackNavigator(
   {
@@ -16,7 +18,9 @@ const navigator = createStackNavigator(
     Image: ImageScreen,
     Counter: CounterScreen,
     Color: ColorScreen,
-    AdjustableColors: AdjustableColors
+    AdjustableColors: AdjustableColors,
+    TextInput: TextInputScreen,
+    Password: PasswordInput
   },
   {
     initialRouteName: "Home",

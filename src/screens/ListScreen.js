@@ -12,24 +12,37 @@ const ListScreen = () => {
     ]
 
     return (
-        <FlatList
-            // horizontal
-            data={friends}
-            keyExtractor={friend => friend.name}
-            renderItem={({ item }) => {
-                return <Text style={styles.textStyle}>{item.name} is {item.age} years old</Text>
-            }
-            } />
+        <View style={styles.viewStyle}>
+            <Text style={styles.headline}>List Screen</Text>
+            <FlatList
+                // horizontal
+                data={friends}
+                keyExtractor={friend => friend.name}
+                renderItem={({ item }) => {
+                    return <Text style={styles.textStyle}>{item.name} is {item.age} years old</Text>
+                }
+                } />
+        </View>
     );
 }
 
 const styles = StyleSheet.create({
     textStyle: {
-        // marginVertical: 70,
+        fontSize: 25,
         alignSelf: 'center',
-        backgroundColor: 'orange',
-        padding: 50,
-        margin: 30
+        backgroundColor: 'lightblue',
+        padding: 30,
+        margin: 20,
+        borderRadius: 8,
+        width: '90%',
+        textAlign: 'center'
+    },
+    viewStyle: {
+        alignItems: 'center',
+        width: '100%'
+    },
+    headline: {
+        fontSize: 30
     }
 
 })
