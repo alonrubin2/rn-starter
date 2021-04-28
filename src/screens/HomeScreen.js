@@ -50,6 +50,11 @@ const HomeScreen = ({ navigation }) => {
         <Text style={styles.textStyle}>Text-Input Screen</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity style={styles.buttonStyle}
+        onPress={() => navigation.navigate('BoxScreen')}>
+        <Text style={styles.textStyle}>Box Screen</Text>
+      </TouchableOpacity>
+
     </View>
 
   </ScrollView>
