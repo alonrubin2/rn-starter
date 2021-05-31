@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text, View, StyleSheet, Platform, PlatformColor } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 
 const name = 'Alon';
 
 const ComponentScreen = () => {
     return (
-        <View>
+        <View style={styles.view}>
             <Text style={styles.topText}>getting started with React Native</Text>
             <Text style={styles.nameText}>My name is {name}</Text>
         </View>
@@ -15,13 +15,15 @@ const ComponentScreen = () => {
 const styles = StyleSheet.create({
     topText: {
         fontSize: 45,
+        textAlign: 'center'
     },
     nameText: {
-        fontSize: 20
-    },
-    textColors: {
+        fontSize: 25,
+        marginVertical: 10,
         backgroundColor: 'lime',
-        fontFamily: 'times new roman'
+    },
+    view: {
+        alignItems: 'center'
     }
 })
 

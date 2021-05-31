@@ -8,7 +8,7 @@ const ListScreen = () => {
         { name: 'Ella', age: 26 },
         { name: 'Hadar', age: 33 },
         { name: 'Tal', age: 26 },
-        { name: 'Aharon', gae: 27 },
+        { name: 'Aharon', age: 27 },
     ]
 
     return (

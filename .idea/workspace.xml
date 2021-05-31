@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8c65e429-8e5d-4b8b-abc1-9616ac791114" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ComponentScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ComponentScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ListScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +44,25 @@
     </state>
     <state x="-1641" y="-74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.-159.1920.1040@-1920.-159.1920.1040" timestamp="1618994527700" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.-159.1920.1040@0.0.1536.824" timestamp="1618835774342" />
-    <state x="42" y="92" width="1500" height="738" key="AVDManager" timestamp="1619272510397">
+    <state x="42" y="92" width="1500" height="740" key="AVDManager" timestamp="1621957755251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="35" y="76" width="1250" height="610" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1620748368726" />
     <state x="-1710" y="-8" width="1500" height="738" key="AVDManager/0.0.1536.824/-1920.-159.1920.1040@-1920.-159.1920.1040" timestamp="1618994761959" />
-    <state x="42" y="92" width="1500" height="738" key="AVDManager/0.0.1536.824/-1920.-159.1920.1040@0.0.1536.824" timestamp="1619272510397" />
-    <state x="42" y="92" width="1500" height="738" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1619219828973" />
+    <state x="42" y="92" width="1500" height="738" key="AVDManager/0.0.1536.824/-1920.-159.1920.1040@0.0.1536.824" timestamp="1619965215500" />
+    <state x="42" y="92" width="1500" height="740" key="AVDManager/0.0.1536.824/0.-1080.1280.680@0.0.1536.824" timestamp="1621957755251" />
+    <state x="42" y="92" width="1500" height="738" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1620142485796" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1618835838320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1920.-159.1920.1040@0.0.1536.824" timestamp="1618835838320" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1619269688863">
+    <state x="431" y="146" width="807" height="679" key="search.everywhere.popup" timestamp="1621957641684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="359" y="120" width="672" height="560" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1620747512279" />
     <state x="-1381" y="24" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/-1920.-159.1920.1040@-1920.-159.1920.1040" timestamp="1618994761871" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.-159.1920.1040@0.0.1536.824" timestamp="1619269688863" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1619219661479" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.-159.1920.1040@0.0.1536.824" timestamp="1619964717946" />
+    <state x="431" y="146" width="807" height="679" key="search.everywhere.popup/0.0.1536.824/0.-1080.1280.680@0.0.1536.824" timestamp="1621957641684" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620141695409" />
   </component>
 </project>
